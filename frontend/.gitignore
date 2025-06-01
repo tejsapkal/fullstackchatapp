@@ -1,0 +1,12 @@
+# Node modules and build folders
+frontend/node_modules/
+frontend/build/
+
+# Spring Boot target folder
+backend/target/
+
+# OS or IDE-related files
+.DS_Store
+*.log
+*.class
+.env

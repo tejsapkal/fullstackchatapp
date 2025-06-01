@@ -1,0 +1,46 @@
+.username-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.username-box {
+    background: white;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+}
+
+.username-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-btn {
+    padding: 12px 24px;
+    margin: 10px 5px;
+    border: none;
+    background: #cf4250;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.chat-btn:hover {
+    background: #ef73a0;
+}
+
